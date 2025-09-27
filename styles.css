@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Preahvihear");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.header {
+  padding: 18px;
+  background-color: white;
+}
+
+.pink-text {
+  font-size: 12px;
+  padding: 10px 12px 10px 12px;
+  color: #fb6f92;
+  text-align: center;
+}
+
+.white-text {
+  color: white;
+  font-size: 15px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-center {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.straight-line-pink {
+  width: 1.5px;
+  height: 45px;
+  background-color: #ffc2d1;
+}
+
+#user-icon {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.pop-down {
+  width: 100%;
+  height: 50px;
+  background-color: #ffb3c6;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 65%;
+  height: 25px;
+  border: solid 3px #c0c0c0;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 50px;
+}
+.spacing-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu-button {
+  cursor: pointer;
+}
+.ofertas {
+  font-family: "Preahvihear", sans-serif;
+  font-size: 20px;
+}
+.ofertas-imgs {
+  aspect-ratio: 2/2;
+  border-radius: 50px;
+  width: 200px;
+  height: 200px;
+}
+.scroll-ofertas {
+  display: flex;
+  width: 62%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 15px 125px 15px 125px;
+  overflow-y: hidden; /* Enables vertical scrolling if content exceeds height */
+  overflow-x:scroll; /* Optional: Prevents horizontal scrolling within the div */
+}
+
+@keyframes mainOfertas {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.075;
+  }
+}
+
+.ofertas-container {
+  text-align: center;
+  color: #fb6f92;
+  margin: 0px 15px 0px 15px;
+  border-radius: 50px;
+  padding: 25px;
+  background-color: #ffe5ec;
+}
+.stars {
+  color: #fb6f92;
+  margin: 12px;
+}
+.scroll-ofertas::-webkit-scrollbar{
+  display: none;
+}
+
+.rodape {
+  display: flex;
+  margin-top: 25px;
+  background-color: #ff8fab; /* colocar ./data/cobertura-img-website.png no beckground img com o background-color rosa*/
+  background-image: url(./data/cobertura-img-website.png);
+  background-size: cover;
+  height: 250px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.interactive {
+  cursor: pointer;
+  transition: all ease-in-out 100ms;
+}
+.interactive:hover {
+  scale: 1.05;
+}
+.interactive:active {
+  scale: 0.95;
+}
+
+.button {
+  width: 65%;
+  height: 35px;
+  border: solid #000000;
+  background-color: white;
+  border-radius: 15px;
+}
