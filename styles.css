@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Preahvihear");
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 
 * {
   margin: 0;
@@ -155,9 +156,13 @@
 }
 
 .button {
-  width: 65%;
-  height: 35px;
-  border: solid #000000;
-  background-color: white;
+  width: 85%;
+  height: 40px;
   border-radius: 15px;
+}
+
+.aBeeZee {
+  font-family: 'ABeeZee', sans-serif;
+  text-align: center;
+  color: white;
 }
