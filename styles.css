@@ -28,7 +28,7 @@
 
 /* MODO CELULAR */
 
-@media (min-width: 402px)  and (max-width: 768px)  {
+@media (min-width: 300px)  and (max-width: 767px)  {
   .header {
   display: flex;
   flex-direction: row;
