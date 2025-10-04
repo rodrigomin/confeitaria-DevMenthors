@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff;
+  font-family: Poppins, sans-serif;
+  color: #FF8FAB;
+ 
+  
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #FF8FAB;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 1440 320'><path fill='%23FFE5EC' d='M0,0 L1440,0 L1440,160 C1200,220 900,100 720,140 C540,180 360,240 0,200 Z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 55vh;
+  overflow-x: hidden;
+}
+
+nav a,
+nav a:visited {
+  color: #FF8FAB;
+  text-decoration: none;
+  padding: 6px 10px;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #e06694;
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: #c84f75;
+}
+
+
+.content {
+  display: flex;
+border: 20px;
+  padding: 30px 20px;
+  justify-content: center;
+
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 360px;
+  width: 100%;
+  margin: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  text-align: center;
+  color: #333;
+}
+
+.card h2 {
+  margin: 0 0 10px 0;
+  color: #FF8FAB;
+}
+
+.card p {
+  margin: 0 0 16px 0;
+  color: #666;
+}
+
+.card-button {
+  background-color: #FF8FAB;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  filter: brightness(0.95);
+}
+.h1  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #FFB3C6;
+  font-family: Poppins, sans-serif;
+  color: #fb6f92;
+  
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 25px;
+  border: solid 3px #c0c0c0;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 50px; 
+  background-color: white;
+  font-size: 16px;
+
+}
+  .center {
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  
+  }
+  .icon nav {
+
+justify-content: end;
+
+  }
