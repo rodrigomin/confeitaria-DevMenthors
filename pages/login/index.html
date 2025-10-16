@@ -8,6 +8,45 @@
     <script src="./script.js"></script>
 </head>
 <body>
-    <h1> Login </h1>
+    <header class="header">
+        <div class="spacing-between"> 
+            <a href='#' onclick="history.back()"> <svg style="scale: -1;" xmlns="http://www.w3.org/2000/svg" class="interactive" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left-icon lucide-chevron-left"><path d="m15 18-6-6 6-6"/></svg></a>
+            <a href="../../index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-icon lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></a>
+        </div>
+    </header>
+
+    <div class="center">
+        <p style="font-weight: 700;"> Login </p>
+    </div>
+
+
+      <div style="width: 100dvw; height: 70dvh;" class="center">
+          <div class="container">
+                  <form class="form">
+                      <div class="form-container">
+                      <input placeholder="Email" value="" type="email" id="email"> </input>
+                      <input placeholder="Senha" value="" type="password" id="password"> </input>
+                      </div>
+                      <div class="mini-form spacing-between">
+                          <div class="row">
+                            <label class="checkbox-label">
+                              <input type="checkbox" id="remember">
+                              <span class="checkmark"></span>
+                              <span class="label-text">Lembre de mim</span>
+                            </label>
+                          </div>
+                        
+                          <div class="row">
+                            <a href="#" style="text-decoration: underline; color: #FB6F92;">Esqueci a Senha</a>
+                          </div>
+                        </div>
+                        <div class="center" style="flex-direction: column;">
+                          <button type="submit" class="button"> Login</button>
+                          <div class="center" style="margin-top: 15px;"> <a href="../cadastro/index.html" style="cursor:pointer; text-align: center; font-size: 12px; text-decoration: underline; color: #FB6F92;"> Não possuí uma conta? Clique aqui. </a> </div>
+                        </div>                
+                  </form>
+          </div>
+      </div>
+
 </body>
 </html>
