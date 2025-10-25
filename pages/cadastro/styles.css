@@ -9,8 +9,20 @@
 }
 
 a {
-    color: black;
     text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 25px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
 }
 
 .spacing-between {
@@ -19,15 +31,9 @@ a {
     align-items: center;
 }
 
-.header {
-    padding: 25px;
-}
 
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+
 
 .container {
     padding: 25px;
@@ -151,11 +157,13 @@ a {
     scale: 0.95;
 }
 
+
+
 body {
-  width: 100dvw;
-  height: 100dvh;
-  background-image: url('../../data/svg.png');
-  background-size: cover;
-  background-position-y:bottom;
-  background-repeat: no-repeat;
-}
+    width: 100dvw;
+    height: 100dvh;
+    background-image: url('../../data/svg.png');
+    background-size: cover;
+    background-position-y:bottom;
+    background-repeat: no-repeat;
+  }

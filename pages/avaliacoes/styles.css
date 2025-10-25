@@ -9,6 +9,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+<<<<<<< HEAD
 .poltawski {
     font-family: 'Poltawski Nowy', serif;
     font-size: 18px;
@@ -23,13 +24,31 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* ocupa toda a tela */
+=======
+html, body {
+    height: 100dvh;
+>>>>>>> fc3e8ba567c5f61424a3fea5b5b7151f15078091
     margin: 0;
-    overflow-y: hidden;
-    overflow-x: hidden;
-  }
+  }  
 
-.main-div {
-    margin: 24px;
+body {
+  margin: 0;
+  min-height: 100dvh;
+  overflow: hidden;
+  padding: 24px; /* se quiser espaço interno */
+  box-sizing: border-box;
+}
+
+.grid-box {
+  display: grid;
+  height: 100dvh;
+}
+
+.main-div,
+.form-overlay {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: 100%;
 }
 
 .center {
@@ -49,7 +68,7 @@ body {
     height: 24px;
     width: 24px;
     border-radius: 50%;
-    border: pink solid 20px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,12 +151,64 @@ body {
 
 .feedbacks {
     width: 100%;
-    height: 650px;
+    height: 60dvh;
     overflow-y: auto;
     overflow-x: hidden;
 }
 
-main {
+.main-div {
     flex: 1;
+<<<<<<< HEAD
   }
 
+=======
+    overflow: hidden;
+  }
+  
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+.form-overlay {
+    display: flex;
+    flex-direction: column;
+    opacity: 0; 
+  }
+  
+  /* quando ativar */
+  .form-overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+.form-div {
+    background-color: #ffd5df;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 50px;
+
+}
+
+.star-form {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    width: 100dvw;
+    height: 100dvh;
+    background-image: url('../../data/svg.png');
+    background-size: cover;
+    background-position-y:bottom;
+    background-repeat: no-repeat;
+  }
+>>>>>>> fc3e8ba567c5f61424a3fea5b5b7151f15078091
