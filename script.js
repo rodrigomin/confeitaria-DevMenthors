@@ -8,7 +8,7 @@ console.log("pipi");
 window.onload = () => {
     const ofertaScroll = document.getElementById('scroll-ofertas')
     const ofertasContainers = document.querySelectorAll('div.ofertas-container')
-    ofertasContainers[0].style.scale = 1.05 // p n bugar
+    ofertasContainers[0].style.scale = 1.075 // p n bugar
 
     ofertaScroll.addEventListener("scroll", () => {
         let scrollValue = ofertaScroll.scrollLeft

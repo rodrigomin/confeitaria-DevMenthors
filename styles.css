@@ -35,6 +35,23 @@
   align-items: center;
   justify-content: center;
 }
+
+.arrows {
+  position: absolute;
+  z-index: 1;
+  top: 60%;
+}
+
+#arrow-left{
+  left: 0;
+  margin-left: 15px;
+}
+
+#arrow-right{
+  right: 0;
+  margin-right: 15px;
+}
+
   .header {
   padding: 18px;
   background-color: white;
@@ -70,14 +87,11 @@
    height: 50px; display: flex; flex-direction: row; margin: 15px; justify-content: space-between;
   }
 .scroll-ofertas {
-  display: flex;
-  width: 62%;
+  width: 100%;
   flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  padding: 15px 125px 15px 125px;
-  overflow-y: hidden; /* Enables vertical scrolling if content exceeds height */
-  overflow-x:scroll; /* Optional: Prevents horizontal scrolling within the div */
+  padding: 15px 0px 15px 0px;
+  overflow-y: hidden;
+  overflow-x:scroll;
 }
 .rodape {
   display: flex;
@@ -211,7 +225,7 @@
 
 @keyframes mainOfertas {
   0% {
-    scale: 1;
+    scale: 0.50;
   }
   100% {
     scale: 1.075;

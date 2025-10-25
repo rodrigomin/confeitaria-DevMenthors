@@ -6,7 +6,6 @@ window.onload = () => {
 
     openSpeechBtn.forEach((btn, index) => {
     btn.addEventListener("click", () => {
-            console.log('lol')
             closeSpeechBtn[index].classList.toggle("invisible")
             openSpeechBtn[index].classList.toggle("invisible")
             pinkLine[index].classList.toggle("invisible")
@@ -15,7 +14,6 @@ window.onload = () => {
     });
     closeSpeechBtn.forEach((btn, index) => {
         btn.addEventListener("click", () => {
-                console.log('lol')
                 closeSpeechBtn[index].classList.toggle("invisible")
                 openSpeechBtn[index].classList.toggle("invisible")
                 pinkLine[index].classList.toggle("invisible")
