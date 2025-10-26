@@ -9,7 +9,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-<<<<<<< HEAD
 .poltawski {
     font-family: 'Poltawski Nowy', serif;
     font-size: 18px;
@@ -24,10 +23,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* ocupa toda a tela */
-=======
+}
+
 html, body {
     height: 100dvh;
->>>>>>> fc3e8ba567c5f61424a3fea5b5b7151f15078091
     margin: 0;
   }  
 
@@ -158,10 +157,6 @@ body {
 
 .main-div {
     flex: 1;
-<<<<<<< HEAD
-  }
-
-=======
     overflow: hidden;
   }
   
@@ -211,4 +206,3 @@ body {
     background-position-y:bottom;
     background-repeat: no-repeat;
   }
->>>>>>> fc3e8ba567c5f61424a3fea5b5b7151f15078091
